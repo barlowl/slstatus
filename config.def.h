@@ -65,11 +65,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-  { battery_perc,  "BAT%2s%%",	 "BAT0" },
+  { battery_perc,  "bat%2s%%",	 "BAT0" },
   { battery_state, "%s ",      "BAT0" },
-  { cpu_perc,      "CPU%2s%% ", "NULL" },
-  { ram_perc,      "RAM%2s%% ", "NULL" },
-  { run_command,   "VOL%2s%% ", "/home/luke/.local/bin/slstatus/volume.sh" },
-  { ipv4,          "IP%s ",    "wlan0" },
+  { cpu_perc,      "cpu%2s%% ", "NULL" },
+  { ram_perc,      "ram%2s%% ", "NULL" },
+  { run_command,   "vol%2s%% ", "/home/luke/.local/bin/slstatus/volume.sh" },
+  { ipv4,          "ip%s ",    "wlan0" },
   { datetime,      "%s",      "%F (%a) %T %Z" },
 };
