@@ -71,5 +71,5 @@ static const struct arg args[] = {
   { ram_perc,      "ram%2s%% ", "NULL" },
   { run_command,   "vol%2s%% ", "/home/luke/.local/bin/slstatus/volume.sh" },
   { ipv4,          "ip%s ",    "wlan0" },
-  { datetime,      "%s",      "%F (%a) %T %Z" },
+  { datetime,      "%s",      "%F %a %T %Z" },
 };
